@@ -45,7 +45,6 @@
                 div.addEventListener("mouseover", (e) => {
                     e.currentTarget.style.backgroundColor = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
                     e.currentTarget.style.opacity = `${Number(e.currentTarget.style.opacity) + 0.1}`
-                    console.log(e.currentTarget.style.opacity);
                 });
                 container.appendChild(div);
             }
